@@ -47,7 +47,7 @@
                                     <!-- </div> -->
                                        <div class="row ml-0">
                                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-2 mb-10">
-                                           <img class="imm4" style="" src="assets/images/partner/certification partner.png" alt="" > 
+                                           <img class="imm4"  src="assets/images/partner/certification partner.png" alt="" > 
   
                                            </div>
                                            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-2 mb-10">
