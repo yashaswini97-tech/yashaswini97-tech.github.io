@@ -1,0 +1,58 @@
+                                            /* body {
+  font-family: 'Livvic', sans-serif;
+  } */
+                                            
+                                            .programhead {
+                                                color: black;
+                                                text-align: center;
+                                            }
+                                            
+                                            .card {
+                                                box-shadow: 3px 3px 3px grey;
+                                                padding: 16px;
+                                                text-align: center;
+                                                /* background-color: #f1f1f1; */
+                                                color: black;
+                                            }
+                                            
+                                            .card .card-body .programsub a {
+                                                color: black;
+                                            }
+                                            
+                                            .card-text {
+                                                font-size: 16px;
+                                            }
+                                            /* Float four columns side by side */
+                                            /* Remove extra left and right margins, due to padding */
+                                            /* .row {
+  text-align: center;} */
+                                            
+                                            */
+                                            /* Clear floats after the columns */
+                                            
+                                            .row:after {
+                                                content: "";
+                                                display: table;
+                                                clear: both;
+                                            }
+                                            
+                                            .cad {
+                                                margin-bottom: 90px;
+                                                /* background-color: #f1f1f1; */
+                                            }
+                                            /* Responsive columns */
+                                            
+                                            @media screen and (max-width: 600px) {
+                                                .card {
+                                                    margin-bottom: 50px;
+                                                    font-size: 14px;
+                                                }
+                                                .cad {
+                                                    margin-bottom: 20px;
+                                                    /* Style the counter cards */
+                                                }
+                                            }
+                                            
+                                            .darkmode--activated .programhead {
+                                                color: black;
+                                            }

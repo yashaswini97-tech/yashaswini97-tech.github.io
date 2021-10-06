@@ -1,0 +1,379 @@
+.image {
+    /* background-image: linear-gradient(blue,white);
+
+     background-size: cover;
+     width:100%;
+     height:100%; */
+    /* position:relative; */
+    /* background-image: url(images/header-were-hiring.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width:100%;
+     height:560px; */
+    border: 0;
+    padding-top: 20px;
+}
+
+.main-opacity {
+    background-image: url("Tech-Up-hiring-banner.png");
+    background-size: cover;
+    height: auto;
+    /* background-image:linear-gradient(to left, rgb(246, 252, 253) 0%, #082cf8 100%);  */
+}
+
+.heading2 {
+    color: rgb(93, 120, 243);
+    text-align: center;
+    margin: 0;
+    isolation: isolate;
+    font-size: 48px;
+}
+
+.heading1 {
+    color: rgb(245, 245, 248);
+    text-align: center;
+    margin: 0;
+    isolation: isolate;
+    font-size: 48px;
+}
+
+.heading1 .row {
+    text-align: center;
+    margin-left: 50px;
+    float: left;
+}
+
+.sub-heading {
+    /* text-align: center; */
+    font-size: 20px;
+    color: #fff;
+}
+
+.sheading {
+    color: white;
+    margin-top: 10px;
+    isolation: isolate;
+}
+
+.join .b1 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.bx1 {
+    /* margin-top: -30px;
+   margin-left: 30px;
+   border-radius: 8px;
+   background-color: black;
+   color: white;
+   padding:10px;
+   margin-bottom: 20px; */
+}
+
+.bx {
+    display: inline-block;
+    background: #4285f4;
+    color: black;
+    border: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 13px 35px;
+    border-radius: 5px;
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+    cursor: pointer;
+    -webkit-moz-transition: all ease-in-out 300ms;
+    transition: all ease-in-out 300ms;
+    isolation: isolate;
+}
+
+.bx {
+    /* width: 200px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    margin: 0; */
+    /* margin-left: 490px; */
+    /* text-align: center;
+    color: #fff;
+    background: linear-gradient(to top, #66ccff 0%, #0066ff 77%);
+    cursor: pointer;
+    isolation: isolate;
+    align-items: center;
+    box-shadow: 1px 2px 2px 1px rgb(51, 39, 39); */
+}
+
+.gradient-text {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(228, 232, 250);
+    font-weight: 600;
+    /* background-color: linear-gradient(to left, rgb(246, 252, 253) 0%, #082cf8 100%); */
+}
+
+.button {
+    background-image: linear-gradient(to right, #348F50 0%, #56B4D3 51%, #348F50 100%)
+}
+
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.jobdes {
+    /* background: linear-gradient(to right, #348F50 0%, #56B4D3  51%, #348F50  100%); */
+    /* background-color: rgb(4, 76, 158); */
+    /* align-self: baseline;
+   padding: 10px 40px; */
+    /* margin-left: 120px; */
+    /* margin-bottom: 20px;
+   border-radius:10px;*/
+}
+
+.jobdes a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+
+.job-title {
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.jobs .row {
+    background-color: white;
+    color: black;
+    height: 100px;
+}
+
+.jobstit {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.details {
+    margin-top: -20px;
+    color: red;
+}
+
+.sub-job-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.5;
+    margin-left: 115px;
+}
+
+.button a {
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+.accordion {
+    /* background-color: #eee; */
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    /* text-align: left; */
+    outline: none;
+    font-size: 18px;
+    text-align: center;
+    transition: 0.4s;
+    margin-top: -60px;
+    isolation: isolate;
+    /* margin-left: 115px; */
+}
+
+.active,
+.accordion:hover {
+    background-color: transparent;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    color: black;
+    max-height: 0;
+    overflow-y: scroll;
+    transition: max-height 0.2s ease-out;
+    /* font-weight: 200; */
+    font-size: 14px;
+    /* margin-bottom: 10px; */
+    isolation: isolate;
+    text-align: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.panel .ul .li {
+    padding-bottom: 10px;
+    text-align: left;
+    display: flex;
+    align-items: baseline;
+    margin-top: 10px;
+}
+
+ol.s {
+    list-style-type: inherit;
+}
+
+.panel p {
+    /* font-size: 15px; */
+    line-height: 15px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+    .image {
+        height: auto;
+    }
+    .img-container {
+        max-width: 300%;
+    }
+    .bx {
+        /* margin-left: 90px; */
+    }
+    .button {
+        margin-bottom: 10px;
+    }
+    .img-container1 {
+        padding: 20px;
+        overflow: hidden;
+    }
+    .heading1 {
+        margin-bottom: 0;
+    }
+    .sub-heading {
+        margin-top: 0;
+    }
+    .job-title {
+        margin-bottom: 3px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .accordion {
+        text-align: center;
+    }
+    .panel {
+        font-size: 14px;
+    }
+    .grid-container {
+        /* grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); */
+    }
+}
+
+.darkmode--activated .back {
+    background: black;
+}
+
+.darkmode--activated .gradient-text {
+    color: white;
+}
+
+.darkmode--activated .job-title {
+    color: black;
+}
+
+.darkmode--activated .sub-job-title {
+    color: black;
+}
+
+.darkmode--activated .heading1 {
+    color: black;
+}
+
+.darkmode--activated .accordion {
+    color: black;
+}
+
+.darkmode--activated .sheading {
+    color: black;
+}
+
+
+/* .grid-container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); */
+
+
+/* grid-template-columns: 200px 200px 200px; Make the grid smaller than the container */
+
+
+/* grid-column-gap: 30px;
+  background-color: #2196F3;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  isolation: isolate;
+  border-radius: 6px;
+}
+
+.grid-container > div { */
+
+
+/* background-color: rgba(255, 255, 255, 0.8); */
+
+
+/* text-align: center;
+  padding: 10px 60px;
+  font-size: 30px;
+  align-items: center;
+  
+} */
+
+
+/* .grid-container p{
+  color:black;
+}
+.grid-container1{
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); */
+
+
+/* grid-template-columns: 200px 200px 200px; Make the grid smaller than the container */
+
+
+/* grid-column-gap: 30px;
+
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  isolation: isolate;
+  border-radius: 6px;
+} */
+
+
+/* .new{
+ color:white;
+ margin-top:20px;
+ margin-bottom: 10px;
+} */
+
+
+/*  */

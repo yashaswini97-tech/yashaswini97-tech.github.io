@@ -1,0 +1,95 @@
+/* =======================================================
+*
+* 	Template Style 
+*	Edit this section
+*
+* ======================================================= */
+
+.dreammain {
+    background: url(../images/donation-for-children-in-india-2-Rinex-Technologies-Pvt-Ltd-Mangalore-1-E-learning-Online-Class.jpg);
+    background-size: cover;
+    width: auto;
+    height: auto;
+    padding: 150px;
+    isolation: isolate;
+}
+
+.dreammain .bg-opacity {
+    background: rgba(0, 0, 0, .4);
+    background-size: cover;
+}
+
+.dreammain .savetitle h2 {
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.dreamsub1 .savesubtitle {
+    font-size: 30px;
+    color: #000;
+    font-weight: 400;
+}
+
+.dreamsub1 .savepara {
+    font-size: 20px;
+    font-weight: 100;
+    color: #000;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+.dreamsub1 .Points ul li {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+    display: flex;
+}
+
+.dreamsub1 .Points ul li::before {
+    content: "• ";
+    color: #fff;
+}
+
+.butnns {
+    display: inline-block;
+    background: #4285f4;
+    color: black;
+    border: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 13px 35px;
+    border-radius: 5px;
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+    cursor: pointer;
+    -webkit-moz-transition: all ease-in-out 300ms;
+    transition: all ease-in-out 300ms;
+    isolation: isolate;
+}
+
+.butnns:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    -webkit-moz-transform: translate(0px, -10px) scale(1.2);
+    transform: translate(0px, -10px) scale(1.2)
+}
+
+@media screen and (max-width:995px) {
+    .dreammain {
+        padding: 0px;
+        padding-top: 50px;
+    }
+    .dreammain .savetitle h2 {
+        margin-top: 110px;
+        margin-bottom: 30px;
+    }
+}
+
+.darkmode--activated .dreamsub1 .Points ul li {
+    color: black
+}
+
+.darkmode--activated .dreamsub1 .Points ul li::before {
+    content: "• ";
+    color: black;
+}
